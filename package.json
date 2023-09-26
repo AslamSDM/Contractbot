@@ -1,0 +1,31 @@
+{
+  "name": "contractbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon contractbot.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AslamSDM/Contractbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.61.7",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "mongoose": "^7.5.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/AslamSDM/Contractbot/issues"
+  },
+  "homepage": "https://github.com/AslamSDM/Contractbot#readme"
+}
